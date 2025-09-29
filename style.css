@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CP437';
+  src: url('/fonts/cp437.ttf') format('ttf');
+}
+
+body {
+font-family: 'CP437', monospace !important;
+}
+
+p {
+color: white;
+}
