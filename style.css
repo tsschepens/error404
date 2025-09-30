@@ -1,12 +1,38 @@
 @font-face {
   font-family: 'CP437';
-  src: url('/fonts/cp437.ttf') format('ttf');
+  src: url('fonts/PerfectDOSVGA437.ttf') format('truetype');
 }
 
-body {
-font-family: 'CP437', monospace !important;
+h2 {
+  margin-left: 5px;
 }
 
 p {
-color: white;
+  color: white;
+  margin-bottom: 0px !important;
+  margin-left: 5px;
+}
+
+.underscore {
+  display: inline;
+  color: white;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
 }
